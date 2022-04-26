@@ -1,0 +1,41 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body {
+    text-align: center;
+  }
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+a {
+    color: white;
+    margin: 40px;
+    text-decoration: none;
+  }
+a:hover{
+    color: rgb(125, 181, 226);
+    transition: all ease 0.5s;
+}
+h1 {
+    color: steelblue;
+    margin: 1rem;
+}
+img {
+    width: 800px;
+    border: 1px solid steelblue;
+    box-shadow: 2px 2px rgb(125, 181, 226);
+    margin: 1rem;
+}
+p {
+    padding: 10px;
+    display: flex;
+    text-align: center;
+}
+footer {
+    background-color: steelblue;
+    color: white;
+    margin-top: 1rem;
+}

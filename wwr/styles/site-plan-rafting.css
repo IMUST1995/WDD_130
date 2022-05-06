@@ -12,7 +12,7 @@ Fonts are separated by a | */
   --primary-color: #37392E   ;
   --secondary-color: #DDCECD ;
   --accent1-color: #19647E;
-  --accent2-color: white;
+  --accent2-color: rgb(197, 197, 197);
 
   /* change the values below to your chosen font(s) */
   --heading-font: 'Karla', sans-serif;
@@ -22,7 +22,7 @@ Fonts are separated by a | */
   --headline-color-on-white: #F76C5E;  /* headlines on a white background */ 
   --headline-color-on-color: #DDCECD; /* headlines on a colored background */ 
   --paragraph-color-on-white: #37392E; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: rgb(189, 187, 187); /* paragraph text on a colored background */ 
   --paragraph-background-color: #37392E  ;
   --nav-link-color: #19647E;
   --nav-background-color: #37392E;

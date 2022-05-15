@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0 auto;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 a{
@@ -47,7 +47,7 @@ nav a{
     background-color: black;
 }
 nav a:hover{
-    color: rgba(255, 255, 255, 0.639);
+    color: rgb(212, 212, 212);
     transition: all ease .7s;
     font-size: 1.48rem;
 }

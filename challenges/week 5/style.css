@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 80rem;
+}
+.mainImage{
+    max-width: 100%;
+}
+.picsContainer{
+    display: flex;
+    background-color: grey;
+    justify-content: space-evenly;
+    margin: 0;
+}
+/* .picContainer{
+    border: solid black 5px;
+    border-radius: 50%;
+} */
+.pic{
+    margin: 3rem;
+    width: 10rem;
+    border: solid black 5px;
+    border-radius: 50%;
+}

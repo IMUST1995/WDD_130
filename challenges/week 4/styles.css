@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+main{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    min-height: 750px;
+}
+.white{
+    color: white;
+}
+img{
+    height: 200px;
+}
+h1:hover{
+    color:black;
+    transition: all ease 2s;
+}
+h2{
+    max-width: 30%;
+}

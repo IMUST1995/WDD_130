@@ -1,11 +1,11 @@
-.week4{
-    font-size: 2rem;
-}
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0 auto;
     font-size: 1.2rem;
     text-align: center;
+    font-family: 'Patrick Hand', cursive;
 }
 a{
     text-decoration: none;
@@ -19,7 +19,7 @@ a{
     flex-wrap: wrap;
     justify-content: space-between;
     color: white;
-    background-color: black;
+    background-color: rgb(39, 107, 114);
 }
 /* img.logo{
     width: 100%;
@@ -47,7 +47,7 @@ a{
 nav a{
     font-size: 1.5rem;
     color: white;
-    background-color: black;
+    background-color: rgb(39, 107, 114);
     transition: all ease .5s;
 }
 nav a:hover{
@@ -71,9 +71,16 @@ img{
 .card-img{
     box-shadow: 2px 2px white;
 }
+.card-title{
+    font-size: 2rem;
+    margin: 1rem;
+}
+.button-box a, .join a{
+    color: white;
+}
 .button-box, .join{
-    background-color: rgb(212, 212, 212);
-    color: black;
+    background-color: rgb(39, 107, 114);
+    color: white;
     padding: .5rem 1rem;
     margin: 2rem;
     border: solid white;
@@ -86,16 +93,16 @@ img{
     width: 8rem;
 }
 .button-box:hover{
-    background-color: rgb(177, 177, 177);
-    color: rgba(0, 0, 0, 0.514);
+    background-color: rgb(48, 130, 139);
+    color: white;
     border: solid rgb(212, 212, 212);
     margin-bottom: 3rem;
     padding: .7rem 1.1rem;
     transition: all ease .7s;
 }
 .join:hover{
-    background-color: rgb(212, 212, 212);
-    color: rgb(0, 0, 0);
+    background-color: rgb(48, 130, 139);
+    color: white;
     border: solid rgb(212, 212, 212);
     margin-bottom: 3rem;
     padding: .7rem 1.2rem;

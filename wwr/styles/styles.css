@@ -21,7 +21,7 @@ header.headerContainer{
     flex-wrap: wrap;
     justify-content: space-between;
     color: white;
-    background-color: rgb(39, 107, 114);
+    background-color: #4a4a40;
     grid-column: 1 / 2;
     width: 100%;
 }
@@ -34,6 +34,12 @@ header.headerContainer{
 }
 .icon{
     margin: 1rem;
+    transition: all 1.3s;
+}
+.icon:hover{
+    width: 5rem;
+    opacity: .8;
+    transition: all .7s;
 }
 .icon-title{
     display: flex;
@@ -60,7 +66,7 @@ header.headerContainer{
 nav a{
     font-size: 1.5rem;
     color: white;
-    background-color: rgb(39, 107, 114);
+    background-color: #4a4a40;
     transition: all ease .5s;
 }
 nav a:hover{
@@ -86,7 +92,7 @@ img.mountains{
 section.msg{
     grid-column: 3 / 4;
     margin: 6rem 5rem 0rem -16rem;
-    background-color: rgb(39, 107, 114);
+    background-color: #4a4a40;
     box-shadow: 3px 3px rgb(6, 30, 33);
 }
 #hero-box{
@@ -105,6 +111,8 @@ section.msg{
 .home-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 5px;
 }
 .rivers-card{
     width: 100%;
@@ -124,6 +132,12 @@ section.msg{
 .card-img{
     box-shadow: 2px 2px white;
     width: 100%;
+    box-shadow: 4px 4px rgb(111 112 97);
+    transition: opacity .8s;
+}
+.card-img:hover{
+    opacity: .8;
+    transition: all .8s;
 }
 .card-title{
     font-size: 2rem;
@@ -133,7 +147,7 @@ section.msg{
     color: white;
 }
 .button-box, .join{
-    background-color: rgb(39, 107, 114);
+    background-color: rgb(36, 36, 36);
     color: white;
     padding: .5rem 1rem;
     margin: 2rem;
@@ -147,7 +161,6 @@ section.msg{
     width: 8rem;
 }
 .button-box:hover{
-    background-color: rgb(48, 130, 139);
     color: white;
     border: solid rgb(212, 212, 212);
     margin-bottom: 3rem;
@@ -155,7 +168,6 @@ section.msg{
     transition: all ease .7s;
 }
 .join:hover{
-    background-color: rgb(48, 130, 139);
     color: white;
     border: solid rgb(212, 212, 212);
     margin-bottom: 3rem;
@@ -171,9 +183,39 @@ section.msg{
     align-items: center;
 }
 footer{
-    margin: 4rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: -5px 5px 0px 5px;
+    height: 4rem
 }
-
+.footerLinks{
+    background-color: #6f7061;
+    grid-column: 1 / 5;
+    width: 100%;
+    color: white;
+    transition: color 1s;
+}
+.footerLinks h3 a:hover{
+    color: #4a4a40;
+    transition: color 0.5s;
+}
+.redSocial{
+    grid-column: 5 / 13;
+    background-color: #4a4a40;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icono-social{
+    border: 1px #4a4a40;
+    border-radius: 50%;
+    transition: opacity .8s;
+}
+.icono-social:hover{
+    opacity: .5;
+    transition: all .8s;
+}
 /* header {
     display: grid;
     grid-template-columns: 150px auto;
